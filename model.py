@@ -174,4 +174,3 @@ def train(trainer, model, training_data, validation_data):
             validation_data=(validation_data['x'], validation_data['y']),
             callbacks=trainer.callbacks
         )
-
